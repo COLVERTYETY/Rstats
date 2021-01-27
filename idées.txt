@@ -1,0 +1,15 @@
+Depense energetique elec/eau/gaz etc
+revenue - taxes
+age
+densité de population
+nombre d habitant
+prix energetique
+quantité d energie
+habitant par ménage
+aides sociales?
+transport comun/privé
+classe sociale
+etudiants retraité etc
+taille/isolation efficacité energétique
+niveau d education?
+climats / geographie 
