@@ -1,0 +1,28 @@
+---
+title: "read a shape file"
+output: html_notebook
+---
+
+
+```{r}
+library(rjson)
+library(broom)
+library(ggplot2)
+```
+
+
+```{r}
+plot_locations <- read.csv(file.choose(),stringsAsFactors = FALSE, sep = ";")
+head(plot_locations)
+```
+```{r}
+asjson = fromJSON(plot_locations$Geo.Shape[1])
+View(asjson)
+
+```
+
+```{r}
+thecoords = asjson$coordinates[1][1]
+View(thecoords)
+plot(thecoords)
+```
